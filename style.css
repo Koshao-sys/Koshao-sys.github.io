@@ -227,7 +227,12 @@ form button {
   margin: auto;
 }
 
-.works-inner button {
+.works-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.works-inner .button {
   border-radius: 4px;
   color: #fff;
   background-color: #36b37f;
@@ -240,6 +245,8 @@ form button {
   padding: 12px;
   margin-top: 17px;
   transition: background-color 1s;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 .about {
@@ -346,7 +353,7 @@ form button:enabled {
   border-radius: 8px;
 }
 
-.works-inner button:active {
+.works-inner .button:active {
   background-color: #008552;
 }
 
@@ -395,7 +402,7 @@ form button:enabled {
   flex-grow: 0;
 }
 
-.works-inner button:hover {
+.works-inner .button:hover {
   background-color: royalblue;
   box-shadow: 1px 2px #d0d9d4;
 }
